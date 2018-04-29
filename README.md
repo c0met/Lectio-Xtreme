@@ -1,10 +1,16 @@
 # Lectio-Xtreme
 The new and better lectio enhancer!
-[-] - Romived
+
+[-] - Removed
+
 [+] - Added
+
 [*] - Under development
 
 #Features
-*[*] Auto Login
-*[*] Shedule Quick View
-*[*] Quick Buttons
+
+[*] Auto Login
+
+[*] Shedule Quick View
+
+[*] Quick Buttons
