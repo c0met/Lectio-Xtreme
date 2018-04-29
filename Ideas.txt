@@ -1,0 +1,4 @@
+1. Buttons in the bottom of the quick access menu (Schedule, Assignments, Absence)
+2. Schedule Quick view
+3. Login / Setup page
+(4. Search bar inside tab)

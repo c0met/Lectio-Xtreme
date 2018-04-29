@@ -1,0 +1,10 @@
+{
+"name": "Lectio Xtreme",
+"version": "1.0",
+"manifest_version": 2,
+"description": "The new and better Lectio enhancer!",
+"browser_action":{
+"default_icon": "icon.png",
+"default_popup": "skema.html"}
+
+}
