@@ -36,32 +36,40 @@
 					</span>
 
 					<div class="wrap-input100 validate-input" data-validate = "Student ID er nødvendigt">
-						<input class="input100" type="text" name="elevID" placeholder="Student ID">
+						<input class="input100" type="text" id="eID" name="elevID" placeholder="Student ID" value="">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-address-card" aria-hidden="true"></i>
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Password er nødvendigt">
-						<input class="input100" type="password" name="pass" placeholder="Password">
+					<div class="wrap-input100 validate-input" data-validate = "Klasse ID er nødvendigt">
+						<input class="input100" type="text" id="cID" name="KlasseID" placeholder="Klasse ID" value="">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
-							<i class="fa fa-lock" aria-hidden="true"></i>
+							<i class="fa fa-users" aria-hidden="true"></i>
 						</span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Skole ID er nødvendigt">
-						<input class="input100" type="text" name="skoleID" placeholder="Skole ID">
+						<input class="input100" type="text" name="skoleID" id="sID" placeholder="Skole ID" value="">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 						</span>
 					</div>
 
+					<div class="wrap-input100 validate-input" data-validate = "Password er nødvendigt">
+						<input class="input100" type="password" id="pwd" name="pass" placeholder="Password" value="">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
-							Setup
+						<button class="login100-form-btn" id="Start" type="submit"  onClick="store()"/>
+							Start
 						</button>
 					</div>
 
@@ -72,7 +80,6 @@
 			</div>
 		</div>
 	</div>
-
 
 
 
@@ -91,7 +98,9 @@
 		})
 	</script>
 <!--===============================================================================================-->
-	<script src="js/main.js"></script>
+<script src="jquery-1.11.3.min.js"></script>
+	<script src="js/login-data.js"></script>
+
 
 </body>
 </html>
