@@ -2,4 +2,5 @@
 2. Schedule Quick view
 3. Login / Setup page
 (4. Search bar inside tab)
-5. Color codes in the "Opagver" tab
+5. Color codes in the "Assignments" tab [Red - Missing], [Yellow - Deadline Soon], [Green - Handed]
+6. Count down to newest assignment
