@@ -4,8 +4,9 @@
 "manifest_version": 2,
 "description": "The new and better Lectio enhancer!",
 "browser_action":{
-"default_icon": "images/icon.png",
-"default_popup": "main.html"},
+"default_icon": "images/icon128.png",
+"default_popup": "main.html",
 "options_page": "Options.html"
 
+}
 }
