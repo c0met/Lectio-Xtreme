@@ -1,12 +1,17 @@
 {
 "name": "Lectio Xtreme",
-"version": "1.0",
+"version": "1.1",
+"permissions": ["storage"],
+"background": {
+  "scripts": ["background.js"],
+  "persistent": false
+},
 "manifest_version": 2,
 "description": "The new and better Lectio enhancer!",
 "browser_action":{
 "default_icon": "images/icon128.png",
 "default_popup": "main.html",
-"options_page": "Options.html"
+"options_page": "options.html"
 
 }
 }
