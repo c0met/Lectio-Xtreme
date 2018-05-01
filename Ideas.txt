@@ -1,5 +1,5 @@
 1. Buttons in the bottom of the quick access menu (Schedule, Assignments, Absence)
-2. Schedule Quick view
+2. Schedule Quick view [Partially check]
 3. Login / Setup page
 (4. Search bar inside tab)
 5. Color codes in the "Assignments" tab [Red - Missing], [Yellow - Deadline Soon], [Green - Handed]
