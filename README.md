@@ -1,4 +1,4 @@
-# Lectio-Xtreme
+# Lectio-X
 The new and better lectio enhancer!
 
 [-] - Removed

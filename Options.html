@@ -35,6 +35,27 @@
 						Lectio Login
 					</span>
 
+					<div class="wrap-input100 validate-input" data-validate = "Lectio brugernavn er nødvendigt">
+						<input class="input100" type="text" id="Lectio-user" name="Lectio-user" placeholder="Brugernavn" value="">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate = "Lectio kodeord er nødvendigt">
+						<input class="input100" type="password" id="Lectio-pwd" name="pass" placeholder="Kodeord" value="">
+						<span class="focus-input100"></span>
+						<span class="symbol-input100">
+						<i class="fa fa-lock" aria-hidden="true"></i>
+						</span>
+					</div>
+
+					<form class="login100-form validate-form">
+						<span class="login100-form-title">
+							Elev Info
+						</span>
+
 					<div class="wrap-input100 validate-input" data-validate = "Student ID er nødvendigt">
 						<input class="input100" type="text" id="eID" name="elevID" placeholder="Student ID" value="">
 						<span class="focus-input100"></span>
@@ -44,7 +65,7 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Klasse ID er nødvendigt">
-						<input class="input100" type="text" id="cID" name="KlasseID" placeholder="Klasse ID" value="">
+						<input class="input100" type="text" id="cID" name="klasseID" placeholder="Klasse ID" value="">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-users" aria-hidden="true"></i>
@@ -52,20 +73,14 @@
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Skole ID er nødvendigt">
-						<input class="input100" type="text" name="skoleID" id="sID" placeholder="Skole ID" value="">
+						<input class="input100" type="text" name="skoleID" id="skoleID" placeholder="Skole ID" value="">
 						<span class="focus-input100"></span>
 						<span class="symbol-input100">
 							<i class="fa fa-graduation-cap" aria-hidden="true"></i>
 						</span>
 					</div>
 
-					<div class="wrap-input100 validate-input" data-validate = "Password er nødvendigt">
-						<input class="input100" type="password" id="pwd" name="pass" placeholder="Password" value="">
-						<span class="focus-input100"></span>
-						<span class="symbol-input100">
-						<i class="fa fa-lock" aria-hidden="true"></i>
-						</span>
-					</div>
+
 
 					<div class="container-login100-form-btn">
 						<button class="login100-form-btn" id="Start" type="submit"  onClick="store()"/>
