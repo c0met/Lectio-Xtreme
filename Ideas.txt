@@ -4,3 +4,4 @@
 (4. Search bar inside tab)
 5. Color codes in the "Assignments" tab [Red - Missing], [Yellow - Deadline Soon], [Green - Handed]
 6. Countdown to next assignment
+7. (FIX) Assignments are not probably shown
